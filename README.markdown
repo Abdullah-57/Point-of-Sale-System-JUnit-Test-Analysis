@@ -1,8 +1,8 @@
-# Employee Management System Test Suite
+# Point of Sale System Test Suite
 
 ## Repository Description
 
-This repository contains a comprehensive test suite for an Employee Management System, developed as part of the Software Quality Engineering course at FAST – National University of Computer & Emerging Sciences, Islamabad Campus. The project focuses on unit testing using JUnit and code coverage analysis with EclEmma, covering various components of a point-of-sale (POS) system, including employee management, inventory handling, and transaction processing.
+This repository contains a comprehensive test suite for a Point of Sale System. The project focuses on unit testing using JUnit and code coverage analysis with EclEmma, covering various components of a point-of-sale (POS) system, including employee management, inventory handling, and transaction processing.
 
 The test suite includes 178 test cases, evaluating functionalities across multiple classes such as `Employee`, `Item`, `ReturnItem`, `Management`, `POH`, `POSSystem`, `PointOfSale`, `POR`, and `POSTest`. The tests verify critical operations like adding, updating, and deleting employees, inventory management, transaction processing, and error handling for scenarios like file not found and IO exceptions. The system achieved 100% code coverage for `Employee.java`, `Item.java`, and `ReturnItem.java`, with partial coverage for other classes due to complex logic and untested edge cases.
 
@@ -79,9 +79,3 @@ Contributions are welcome! To contribute:
 
 ### License
 This project is licensed under the MIT License. See the `LICENSE` file for details.
-
-### Contact
-For questions or feedback, contact:
-- **Abdullah Daoud** (22I-2626)
-- **Course Instructor**: Madam Uzma Mahar
-- **Institution**: FAST – National University of Computer & Emerging Sciences, Islamabad Campus
